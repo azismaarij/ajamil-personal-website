@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajamil.xyz - Azis' Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@300;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-section">
+                <div class="logo-text-container">
+                    <h1 class="logo">ajamil.xyz</h1>
+                    <p class="subtitle">AZIS' PERSONAL WEBSITE</p>
+                </div>
+                <img src="salak.png" alt="Salak Icon" class="fruit-icon">
+            </div>
+            <nav class="top-nav">
+                <a href="mailto:azis@example.com">Email</a> |
+                <a href="https://github.com/azismaarij">Github</a> |
+                <a href="https://www.linkedin.com/in/azismaarijjamil/">Linkedin</a> |
+                <a href="https://www.instagram.com/azismjamil/?hl=en">Instagram</a> |
+                <a
+                    href="https://docs.google.com/document/d/e/2PACX-1vTyGbPVRJmqKYwwrh-eLostV-ZWfI23NDHCRL09wloUxuHoFPR8HQKaVgZKunbcEf3nQgVoyhPUlr42/pub">Latest
+                    CV</a>
+            </nav>
+        </header>
+
+        <main class="grid-layout">
+            <!-- Column 1: Personal Project -->
+            <section class="column project-column">
+                <h2>Personal Project</h2>
+                <div id="project-list" class="content-list">
+                    <!-- Projects will be injected here -->
+                    <p class="loading">Loading projects...</p>
+                </div>
+            </section>
+
+            <!-- Column 2: I write -->
+            <section class="column write-column">
+                <h2>I write</h2>
+
+                <div class="sub-section">
+                    <h3>Non-fun stuff</h3>
+                    <div id="write-non-fun" class="content-list">
+                        <p class="loading">Loading...</p>
+                    </div>
+                </div>
+
+                <div class="sub-section">
+                    <h3>Daily</h3>
+                    <div id="write-daily" class="content-list">
+                        <p class="loading">Loading...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Column 3: Fun Stuff -->
+            <section class="column fun-column">
+                <h2>Fun Stuff</h2>
+
+                <div class="sub-section">
+                    <h3>Photography</h3>
+                    <a href="https://www.instagram.com/azismjamil/?hl=en" class="gallery-link">View Gallery &rarr;</a>
+                </div>
+
+                <div class="sub-section">
+                    <h3>Records</h3>
+                    <div id="records-list" class="records-table">
+                        <p class="loading">Loading records...</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
