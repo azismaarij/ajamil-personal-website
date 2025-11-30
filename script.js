@@ -87,7 +87,7 @@ function renderWriting(data) {
     // Add "See all" links
     const nonFunLink = document.createElement('div');
     nonFunLink.className = 'write-item';
-    nonFunLink.innerHTML = `<a href="https://substack.com/@ajamil/posts" class="write-link see-all" target="_blank">See all &rarr;</a>`;
+    nonFunLink.innerHTML = `<a href="https://ajamil.substack.com/" class="write-link see-all" target="_blank">See all &rarr;</a>`;
     nonFunContainer.appendChild(nonFunLink);
 
     const dailyLink = document.createElement('div');
